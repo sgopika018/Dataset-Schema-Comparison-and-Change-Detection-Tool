@@ -1,0 +1,2 @@
+# Dataset-Schema-Comparison-and-Change-Detection-Tool
+SchemaGuard is a full-stack web application that compares two versions of a dataset (CSV, Excel or JSON) and detects schema changes such as added, removed and modified columns.  It uses a FastAPI backend with Pandas to analyze the files, suggests likely column renames using string similarity, and assigns a risk level based on breaking changes.  
